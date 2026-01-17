@@ -15,7 +15,7 @@ public class Helping_class {
 			e.printStackTrace();
 		}
 		try {
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/college","root",                            "@aP3ch41#");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/college","root",                            "prachi");
 			Statement stt = conn.createStatement();
 			//civil and 2024
 			String sql = "InSERT INTO Students(Roll_no,Name,Branch,Marks,YOP) "+" Values(11,'vishal','civil',78,2024), "+" (12,'ravi','civil',90,2024)";

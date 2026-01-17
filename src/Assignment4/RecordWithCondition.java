@@ -17,7 +17,7 @@ public class RecordWithCondition {
 		}
 		
 		try {
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/college","root","@aP3ch41#");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/college","root","prachi");
 			Statement stt = conn.createStatement();
 			String query = "SELECT * FROM Students WHERE Branch='civil' AND YOP=2024";
 			ResultSet resul = stt.executeQuery(query);
