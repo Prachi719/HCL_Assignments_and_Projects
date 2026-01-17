@@ -6,7 +6,7 @@ import java.sql.Statement;
 public class TableCreation {
 	public static void main(String[] args) {
 		try {
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/college","root","@aP3ch41#");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/college","root","prachi");
 			Statement stt = null;
 //			String sql = "CREATE TABLE Students "+" (Name VARCHAR(30), " + " Roll_no INTEGER NOT NULL," + " PRIMARY KEY (Roll_no))";
 			

@@ -8,7 +8,7 @@ public class Increase_Percent {
 
 	public static void main(String[] args) {
 		try{
-					Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/college","root","@aP3ch41#");
+					Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/college","root","prachi");
 					Statement stt = conn.createStatement();
 //					String sql = "ALTER TABLE Students"+" ADD Branch Varchar(20), "+"ADD Marks INTEGER";
 //					String sql = "INSERT INTO Students (Roll_no, Name, Marks, Branch) VALUES " +

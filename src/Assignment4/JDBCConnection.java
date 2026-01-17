@@ -15,7 +15,7 @@ public class JDBCConnection {
 			Connection con = DriverManager.getConnection(
 				    "jdbc:mysql://localhost:3306/college",
 				    "root",
-				    "@aP3ch41#"
+				    "prachi"
 				);
 			System.out.println("Database connected successfully");
 			con.close();
