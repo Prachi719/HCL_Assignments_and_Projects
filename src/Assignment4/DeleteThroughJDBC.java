@@ -13,7 +13,7 @@ public class DeleteThroughJDBC {
 		}
 		
 		try {
-			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/college","root",									"prachi");
+			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/college","root",									"@aP3ch41#");
 			Statement stt = conn.createStatement();
 			ResultSet res = stt.executeQuery("SELECT * FROM Students");
 			System.out.println("Before removing: ");

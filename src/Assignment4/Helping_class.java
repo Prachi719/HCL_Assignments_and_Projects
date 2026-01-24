@@ -6,8 +6,10 @@ import java.sql.Statement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
+
 public class Helping_class {
 	public static void main(String[] args) {
+		
 		try{
 			Class.forName("com.mysql.cj.jdbc.Driver");
 		}catch(ClassNotFoundException e) {
@@ -38,9 +40,49 @@ public class Helping_class {
 		}catch(SQLException e) {
 			e.printStackTrace();
 		}
-	}
-}
-
+		
+//		try {
+//			Class.forName("com.mysql.cj.jdbc.Driver");
+//			
+//		}catch(Exception e) {
+//			e.printStackTrace();
+//		}
+//		try {
+//			Connection conn = DriverManager.getConnection("jdbc:mysql://localhost:3306/college","root","@aP3ch41#");
+//			String q = "Insert into Students(name,Roll_no,Marks,Branch,YOP) Values(?,?,?,?,?)";
+//			PreparedStatement pstt = conn.prepareStatement(q);
+//			Scanner sc = new Scanner(System.in);
+//			while(true) {
+//				System.out.println("enter name: ");
+//				String name = sc.next();
+//				System.out.println("enter branch: ");
+//				String branch = sc.next();
+//				System.out.println("enter roll no: ");
+//				int roll = sc.nextInt();
+//				System.out.println("enter marks: ");
+//				int marks = sc.nextInt();
+//				System.out.println("enter yop: ");
+//				int yop = sc.nextInt();
+//				
+//				pstt.setString(1,name);
+//				pstt.setInt(2,roll);
+//				pstt.setString(3,branch);
+//				pstt.setInt(4,marks);
+//				pstt.setInt(5,yop);
+//				pstt.addBatch();
+//				
+//				System.out.println("wish to enter more data : Y/N");
+//				String choice = sc.next();
+//				if(choice.equals("N")) break;
+//			}
+//		} catch(Exception e) {
+//			e.printStackTrace();
+//		}
+		
+		
+		
+		
+	
 //try {
 //	Class.forName("com.mysql.cj.jdbc.Driver");
 //}catch(ClassNotFoundException e) {
@@ -65,3 +107,5 @@ public class Helping_class {
 //	System.out.println(e.getMessage());
 //	
 //}
+}
+}
